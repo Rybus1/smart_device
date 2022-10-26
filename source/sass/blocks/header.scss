@@ -1,0 +1,208 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
+
+  @media (max-width: $tablet) {
+    position: static;
+  }
+}
+
+.header__container {
+  margin-left: 18.229166vw;
+  margin-right: 21.354166vw;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet) {
+    margin-left: 6.4935064935064vw;
+    margin-right: 10.389610389610vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-left: 8.125vw;
+    margin-right: 10.9375vw;
+  }
+}
+
+.header__home-link {
+  display: flex;
+  margin-top: 1.5625vw;
+  margin-bottom: 1.8229166vw;
+
+  @media (max-width: $tablet) {
+    margin-top: 2.59740259vw;
+    margin-bottom: 3.24675324vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 4.6875vw;
+    margin-bottom: 6.25vw;
+  }
+}
+
+.header__logo {
+  width: 2.8645833vw;
+  height: 2.8645833vw;
+
+  @media (max-width: $tablet) {
+    width: 7.1428571428571vw;
+    height: 7.1428571428571vw;
+  }
+
+  @media (max-width: $mobile) {
+    width: 10.9375vw;
+    height: 10.9375vw;
+  }
+}
+
+.header__text-wrapper {
+  margin-left: 0.78125vw;
+
+  @media (max-width: $tablet) {
+    margin-left: 1.948051vw;
+  }
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.header__title {
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.3020833vw;
+  line-height: 117%;
+  margin-bottom: 0.2604166vw;
+  margin-top: 0.2604166vw;
+  color: $color-default-white;
+
+  @media (max-width: $tablet) {
+    font-size: 3.246753vw;
+    line-height: 116%;
+    margin-bottom: 0.649350vw;
+    margin-top: 0.649350vw;
+  }
+}
+
+.header__subtitle {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.625vw;
+  line-height: 117%;
+  color: $color-default-white;
+  opacity: 0.7;
+
+  @media (max-width: $tablet) {
+    font-size: 1.558441vw;
+    line-height: 116%;
+  }
+}
+
+.header__inner-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: $tablet) {
+    margin-top: 2.597402vw;
+  }
+  @media (max-width: $mobile) {
+    margin-top: 3.125vw;
+  }
+}
+
+.header__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 8.33vw;
+  max-width: 40vw;
+
+  @media (max-width: $tablet) {
+    margin-right: 0;
+  }
+}
+
+.header__email-link,
+.header__phone-link {
+  margin-top: 2.34375vw;
+  color: $color-light;
+  font-family: "PT Mono", sans-serif;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 125%;
+  width: 11.71875vw;
+  display: flex;
+
+  @media (max-width: $tablet) {
+    width: 5.194805vw;
+    height: 5.194805vw;
+    padding: 1.298701vw;
+    margin-top: 0;
+  }
+
+  @media (max-width: $mobile) {
+    width: 12.5vw;
+    height: 12.5vw;
+    padding: 3.125vw;
+  }
+}
+
+.header__phone-link {
+  margin-left: 1.5625vw;
+
+  @media (max-width: $tablet) {
+    margin-left: 2.597402vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-left: 6.25vw;
+  }
+}
+
+.header__email-icon,
+.header__phone-icon {
+  width: 1.04166vw;
+  height: 1.04166vw;
+  margin-right: 0.78125vw;
+
+  @media (max-width: $tablet) {
+    width: 2.597402vw;
+    height: 2.597402vw;
+    margin-right: 0;
+  }
+
+  @media (max-width: $mobile) {
+    width: 6.25vw;
+    height: 6.25vw;
+  }
+}
+
+.header__email-text,
+.header__phone-text {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.header__order {
+  margin-top: 1.8229166vw;
+  padding: 0.520833vw 0.78125vw;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 0.625vw;
+  line-height: 114%;
+  color: $color-light;
+  background-color: $color-transparent;
+  border: 1px solid $color-light;
+  border-radius: 0.15625vw;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  height: fit-content;
+
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
