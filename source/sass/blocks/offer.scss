@@ -1,0 +1,198 @@
+.offer {
+  margin-top: 5.208333vw;
+  padding-left: 18.229167vw;
+  padding-right: 18.229167vw;
+  padding-top: 3.645833vw;
+  padding-bottom: 7.291667vw;
+  background-color: $color-dark;
+  min-height: 50vw;
+
+  @media (max-width: $tablet) {
+    margin-top: 10.389610vw;
+    padding-left: 6.493506vw;
+    padding-right: 6.493506vw;
+    padding-top: 7.792208vw;
+    min-height: 140.259740vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 25.000000vw;
+    padding-left: 7.812500vw;
+    padding-right: 7.812500vw;
+    padding-top: 15.625000vw;
+    min-height: 328.125000vw;
+  }
+}
+
+.offer__caption {
+  color: $color-default-white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.875000vw;
+  line-height: 140%;
+  margin: 0;
+
+  @media (max-width: $tablet) {
+    font-size: 4.675325vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 0;
+  }
+}
+
+.offer__caption::after {
+  @media (max-width: $mobile) {
+    content: "Товары и услуги Smart Device";
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 7.812500vw;
+    line-height: 140%;
+    display: block;
+    max-width: 72.375000vw;
+  }
+}
+
+.offer__list {
+  margin-top: 2.604167vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 4.427083vw;
+
+  @media (max-width: $tablet) {
+    margin-top: 6.493506vw;
+    grid-template-columns: 1fr;
+    gap: 3.896104vw 0;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 12.500000vw;
+    grid-template-columns: 1fr;
+    gap: 9.375000vw 0;
+  }
+}
+
+.offer__item {
+  position: relative;
+  min-height: 33.854167vw;
+
+  @media (max-width: $tablet) {
+    min-height: 32.467532vw;
+    overflow: hidden;
+  }
+
+  @media (max-width: $mobile) {
+    min-height: 78.125000vw;
+  }
+}
+
+.offer__background {
+  object-fit: contain;
+  width: 100%;
+  position: absolute;
+}
+
+.offer__background--desktop {
+  display: block;
+
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.offer__background--tablet {
+  display: none;
+
+  @media (max-width: $tablet) {
+    display: block;
+  }
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.offer__background--mobile {
+  display: none;
+
+  @media (max-width: $mobile) {
+    display: block;
+  }
+}
+
+.offer__title {
+  color: $color-default-white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.041667vw;
+  line-height: 150%;
+  position: relative;
+  z-index: 1;
+  padding-left: 2.083333vw;
+  padding-top: 2.604167vw;
+  padding-right: 7.166667vw;
+  margin: 0;
+
+  @media (max-width: $tablet) {
+    font-size: 2.597403vw;
+    padding-left: 5.844156vw;
+    padding-top: 5.194805vw;
+    padding-right: 0;
+    max-width: 29.870130vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 5.625000vw;
+    padding-left: 9.375000vw;
+    padding-top: 9.375000vw;
+    max-width: 51.875000vw;
+  }
+}
+
+.offer__break {
+  display: none;
+
+  @media (max-width: $tablet) {
+    display: block;
+  }
+}
+
+.offer__icon-wrapper {
+  background-color: $color-blue;
+  width: 3.125000vw;
+  height: 3.125000vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  @media (max-width: $tablet) {
+    width: 7.792208vw;
+    height: 7.792208vw;
+  }
+
+  @media (max-width: $mobile) {
+    width: 12.500000vw;
+    height: 12.500000vw;
+  }
+}
+
+.offer__icon {
+  width: 0.198437vw;
+  height: 0.396875vw;
+  position: absolute;
+  right: 1.339063vw;
+  bottom: 1.364062vw;
+
+  @media (max-width: $tablet) {
+    width: 0.494805vw;
+    height: 0.989610vw;
+    right: 3.338961vw;
+    bottom: 3.401299vw;
+  }
+  @media (max-width: $tablet) {
+    width: 0.793750vw;
+    height: 1.587500vw;
+    right: 5.356250vw;
+    bottom: 5.456250vw;
+  }
+}

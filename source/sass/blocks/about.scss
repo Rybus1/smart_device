@@ -1,0 +1,148 @@
+.about {
+  margin-left: 18.229167vw;
+  margin-right: 18.229167vw;
+  margin-top: 6.250000vw;
+  position: relative;
+
+  @media (max-width: $tablet) {
+    margin-left: 6.493506vw;
+    margin-right: 6.493506vw;
+    margin-top: 10.389610vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-left: 7.812500vw;
+    margin-right: 7.812500vw;
+    margin-top: 15.625000vw;
+  }
+}
+
+.about__mask {
+  display: block;
+  transform: rotate(270deg);
+  position: absolute;
+  left: 0;
+  top: 5vw;
+  color: transparent;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 8.138021vw;
+  line-height: 75%;
+  background-image: url("../img/digital-bg.jpg");
+  background-size: 70.539583vw 80.446875vw;
+  background-repeat: no-repeat;
+  height: fit-content;
+  width: fit-content;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-position: -30.468750vw -44.531250vw;
+
+  @media (max-width: $tablet) {
+    font-size: 20.292208vw;
+    left: -8vw;
+    top: 13vw;
+  }
+
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.about__info-wrapper {
+  padding-left: 13.020833vw;
+
+  @media (max-width: $tablet) {
+    padding-left: 22.727273vw;
+  }
+
+  @media (max-width: $mobile) {
+    padding-left: 0;
+  }
+}
+
+.about__caption {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.875000vw;
+  line-height: 120%;
+
+  @media (max-width: $tablet) {
+    font-size: 4.675325vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 8.750000vw;
+  }
+}
+
+.about__description {
+  font-family: "PT Mono", sans-serif;
+  font-weight: 400;
+  font-size: 0.833333vw;
+  line-height: 120%;
+  max-width: 50.520833vw;
+
+  @media (max-width: $tablet) {
+    font-size: 2.077922vw;
+    max-width: 64.285714vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 4.375000vw;
+    max-width: 84.375000vw;
+  }
+}
+
+.about__description:first-of-type {
+  margin-top: 0.781250vw;
+
+  @media (max-width: $tablet) {
+    margin-top: 1.948052vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 4.687500vw;
+  }
+}
+
+.about__description[data-paragraph="is-collapsed"] {
+  display: none;
+}
+
+.about__expand-button {
+  display: none;
+  margin-top: 1.822917vw;
+  text-transform: uppercase;
+  width: 9.375000vw;
+  text-align: center;
+  border: 1px solid $color-blue;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 0.729167vw;
+  line-height: 117%;
+  letter-spacing: 0.05em;
+  border-radius: 0.156250vw;
+  padding-top: 0.729167vw;
+  padding-bottom: 0.729167vw;
+  background-color: transparent;
+  color: $color-blue;
+  cursor: pointer;
+
+  @media (max-width: $tablet) {
+    margin-top: 2.597403vw;
+    width: 23.376623vw;
+    font-size: 1.818182vw;
+    border-radius: 0.389610vw;
+    padding-top: 1.818182vw;
+    padding-bottom: 1.818182vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 6.250000vw;
+    width: 50.000000vw;
+    font-size: 4.375000vw;
+    border-radius: 0.937500vw;
+    padding-top: 2.500000vw;
+    padding-bottom: 2.500000vw;
+  }
+}

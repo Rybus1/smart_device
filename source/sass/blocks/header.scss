@@ -1,11 +1,11 @@
 .header {
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
 
   @media (max-width: $tablet) {
-    position: static;
+    position: relative;
   }
 }
 

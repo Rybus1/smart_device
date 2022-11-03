@@ -1,0 +1,123 @@
+.advantages {
+  margin-left: 18.229167vw;
+  margin-right: 18.125000vw;
+  margin-top: 6.250000vw;
+
+  @media (max-width: $tablet) {
+    margin-left: 6.493506vw;
+    margin-right: 6.493506vw;
+    margin-top: 10.389610vw;
+  }
+
+  @media (max-width: $mobile) {
+    margin-left: 7.812500vw;
+    margin-right: 7.812500vw;
+    margin-top: 15.625000vw;
+  }
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.562500vw 1.614583vw;
+
+  @media (max-width: $tablet) {
+    gap: 3.896104vw 3.766234vw;
+  }
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 1fr;
+    gap: 9.375000vw 0;
+  }
+}
+
+.advantages__item {
+  border: 1px solid $color-grey;
+  border-left: 0.260417vw solid $color-blue;
+  padding: 4.947917vw 2.343750vw 1.822917vw 2.343750vw;
+  position: relative;
+  height: fit-content;
+
+  @media (max-width: $tablet) {
+    border-left: 0.649351vw solid $color-blue;
+    padding: 12.337662vw 3.896104vw 4.545455vw 5.844156vw;
+  }
+
+  @media (max-width: $mobile) {
+    border-left: 1.562500vw solid $color-blue;
+    padding: 25.000000vw 9.375000vw 10.937500vw 9.375000vw;
+  }
+}
+
+.advantages__icon {
+  fill: $color-blue;
+  position: absolute;
+  top: 2.083333vw;
+  left: 2.343750vw;
+  width: 1.822917vw;
+  height: 1.822917vw;
+
+  @media (max-width: $tablet) {
+    width: 4.545455vw;
+    height: 4.545455vw;
+    top: 5.194805vw;
+    left: 5.844156vw;
+  }
+
+  @media (max-width: $mobile) {
+    width: 9.375000vw;
+    height: 9.375000vw;
+    top: 9.375000vw;
+    left: 9.375000vw;
+  }
+}
+
+.advantages__caption {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.250000vw;
+  color: $color-blue;
+
+  @media (max-width: $tablet) {
+    font-size: 3.116883vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 6.250000vw;
+  }
+}
+
+.advantages__description {
+  font-family: "PT Mono", sans-serif;
+  font-weight: 400;
+  font-size: 0.833333vw;
+  line-height: 135%;
+  margin-top: 0.781250vw;
+  color: $color-default-black;
+
+  @media (max-width: $tablet) {
+    font-size: 2.077922vw;
+    margin-top: 1.948052vw;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 4.375000vw;
+    margin-top: 4.687500vw;
+  }
+}
+
+.advantages__item:hover {
+  background-color: $color-blue;
+}
+
+.advantages__item:hover .advantages__icon {
+  fill: $color-default-white;
+}
+
+.advantages__item:hover .advantages__caption {
+  color: $color-default-white;
+}
+
+.advantages__item:hover .advantages__description {
+  color: $color-default-white;
+}
