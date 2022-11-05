@@ -1,8 +1,8 @@
 .offer {
-  margin-top: 5.208333vw;
+  margin-top: 6.558333vw;
   padding-left: 18.229167vw;
   padding-right: 18.229167vw;
-  padding-top: 3.645833vw;
+  padding-top: 3.545833vw;
   padding-bottom: 7.291667vw;
   background-color: $color-dark;
   min-height: 50vw;
@@ -60,7 +60,7 @@
   gap: 0 4.427083vw;
 
   @media (max-width: $tablet) {
-    margin-top: 6.493506vw;
+    margin-top: 4.493506vw;
     grid-template-columns: 1fr;
     gap: 3.896104vw 0;
   }
@@ -189,7 +189,7 @@
     right: 3.338961vw;
     bottom: 3.401299vw;
   }
-  @media (max-width: $tablet) {
+  @media (max-width: $mobile) {
     width: 0.793750vw;
     height: 1.587500vw;
     right: 5.356250vw;

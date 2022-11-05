@@ -17,7 +17,7 @@
 
   @media (max-width: $tablet) {
     margin-left: 6.4935064935064vw;
-    margin-right: 10.389610389610vw;
+    margin-right: 9.389610389610vw;
   }
 
   @media (max-width: $mobile) {
@@ -75,7 +75,6 @@
   font-weight: 700;
   font-size: 1.3020833vw;
   line-height: 117%;
-  margin-bottom: 0.2604166vw;
   margin-top: 0.2604166vw;
   color: $color-default-white;
 
@@ -117,7 +116,7 @@
 .header__contacts {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 8.33vw;
+  margin-right: 7.852083vw;
   max-width: 40vw;
 
   @media (max-width: $tablet) {
@@ -192,7 +191,7 @@
   padding: 0.520833vw 0.78125vw;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 0.625vw;
+  font-size: 0.729167vw;
   line-height: 114%;
   color: $color-light;
   background-color: $color-transparent;

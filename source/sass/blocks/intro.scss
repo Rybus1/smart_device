@@ -14,7 +14,7 @@
   object-fit: cover;
 
   @media (max-width: $tablet) {
-    height: 96.103896vw;
+    height: 83.103896vw;
   }
 
   @media (max-width: $mobile) {
@@ -53,14 +53,14 @@
     font-size: 8.311688vw;
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: $mobile) {
     font-size: 11.250000vw;
     max-width: 84.375000vw;
   }
 }
 
 .intro__description {
-  margin-top: 2.083333vw;
+  margin-top: 1.683333vw;
   color: $color-text-white;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
@@ -69,13 +69,13 @@
   max-width: 35.677083vw;
 
   @media (max-width: $tablet) {
-    margin-top: 2.597403vw;
+    margin-top: 0;
     font-size: 2.857143vw;
     max-width: 87.012987vw;
   }
 
   @media (max-width: $mobile) {
-    margin-top: 6.250000vw;
+    margin-top: 2.250000vw;
     font-size: 4.375000vw;
     max-width: 84.687500vw;
   }
@@ -83,7 +83,7 @@
 
 .intro__additional-info {
   display: block;
-  margin-top: 2.083333vw;
+  margin-top: 2.383333vw;
   padding: 0.781250vw 1.302083vw;
   background-color: $color-blue;
   width: fit-content;
@@ -100,11 +100,15 @@
     font-size: 2.337662vw;
     padding: 1.948052vw 3.246753vw;
     margin-left: 5.844156vw;
+    margin-top: 7.493506vw;
   }
 
   @media (max-width: $mobile) {
     font-size: 0;
     margin-left: 0;
+    margin-top: 14vw;
+    min-width: 84.375000vw;
+    min-height: 12.500000vw;
   }
 }
 
@@ -113,7 +117,10 @@
     content: "Бесплатная консультация";
     color: $color-text-white;
     font-size: 4.375000vw;
+    line-height: 117%;
     display: block;
     padding: 3.125000vw 9.375000vw;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
   }
 }

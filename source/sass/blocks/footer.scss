@@ -88,6 +88,7 @@
   font-weight: 700;
   font-size: 1.3020833vw;
   line-height: 117%;
+  margin-top: 0.3vw;
 
   @media (max-width: $tablet) {
     font-size: 3.246753vw;
@@ -106,7 +107,7 @@
   font-size: 0.625vw;
   line-height: 117%;
   opacity: 0.7;
-  margin-top: 0.649351vw;
+  margin-top: 0.0vw;
 
   @media (max-width: $tablet) {
     font-size: 1.558442vw;
@@ -249,18 +250,19 @@
 }
 
 .navigation__list {
-  margin-top: 1.041667vw;
+  margin-top: 1.341667vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   max-height: 7.5vw;
-  gap: 0.520833vw 1.562500vw;
+  gap: 0.420833vw 1.562500vw;
   padding-inline-start: 0;
+  align-content: flex-start;
 
   @media (max-width: $tablet) {
-    margin-top: 2.597403vw;
+    margin-top: 3.097403vw;
     max-height: none;
-    gap: 1.298701vw 0;
+    gap: 1.108701vw 0;
   }
 
   @media (max-width: $mobile) {
@@ -336,16 +338,17 @@
 }
 
 .contacts__list {
-  margin-top: 1.041667vw;
+  margin-top: 1.341667vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 0.520833vw 1.562500vw;
+  gap: 0.420833vw 1.562500vw;
   padding-inline-start: 0;
 
   @media (max-width: $tablet) {
-    margin-top: 2.597403vw;
-    gap: 1.298701vw 0;
+    margin-top: 3.097403vw;
+    max-height: none;
+    gap: 1.108701vw 0;
   }
 
   @media (max-width: $mobile) {

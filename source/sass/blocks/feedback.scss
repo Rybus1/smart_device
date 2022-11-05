@@ -1,6 +1,6 @@
 .feedback {
   background-color: $color-background-blue;
-  padding: 8.854167vw 18.750000vw 13.020833vw;
+  padding: 8.854167vw 18.750000vw 12.820833vw;
   position: relative;
   color: $color-default-white;
 
@@ -15,8 +15,8 @@
 
 .feedback__decoration {
   position: absolute;
-  width: 58.750000vw;
-  height: 47.656250vw;
+  width: 51.150000vw;
+  height: 47.956250vw;
   top: -4.166667vw;
   left: 0;
   pointer-events: none;
@@ -41,7 +41,7 @@
 
 .feedback__caption {
   display: block;
-  margin-left: 32.552083vw;
+  margin-left: 32.052083vw;
   width: fit-content;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -63,7 +63,7 @@
 
 .feedback__description {
   display: block;
-  margin-left: 32.552083vw;
+  margin-left: 32.352083vw;
   width: fit-content;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
@@ -75,6 +75,7 @@
     font-size: 2.077922vw;
     margin-left: 0;
     margin-bottom: 3.246753vw;
+    margin-top: 1.4vw;
   }
 
   @media (max-width: $mobile) {
@@ -87,7 +88,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.041667vw 1.562500vw;
-  margin-left: 32.552083vw;
+  margin-left: 32.302083vw;
 
   @media (max-width: $tablet) {
     margin-left: 0;
@@ -183,7 +184,7 @@
   @media (max-width: $tablet) {
     border-radius: 0.389610vw;
     font-size: 2.077922vw;
-    padding: 1.948052vw 3.246753vw;
+    padding: 1.708052vw 3.246753vw;
     width: 34.415584vw;
   }
 
