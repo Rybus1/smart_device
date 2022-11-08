@@ -1,53 +1,55 @@
 .advantages {
-  margin-left: 18.229167vw;
-  margin-right: 18.125000vw;
-  margin-top: 6.250000vw;
+  margin-left: 18.23vw;
+  margin-right: 18.13vw;
+  margin-top: 6.25vw;
 
   @media (max-width: $tablet) {
-    margin-left: 6.493506vw;
-    margin-right: 6.493506vw;
-    margin-top: 10.389610vw;
+    margin-left: 6.49vw;
+    margin-right: 6.49vw;
+    margin-top: 10.39vw;
   }
 
   @media (max-width: $mobile) {
-    margin-left: 7.812500vw;
-    margin-right: 7.812500vw;
-    margin-top: 15.625000vw;
+    margin-left: 7.81vw;
+    margin-right: 7.81vw;
+    margin-top: 15.62vw;
   }
 }
 
 .advantages__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.562500vw 1.614583vw;
+  gap: 1.56vw 1.61vw;
 
   @media (max-width: $tablet) {
-    gap: 3.896104vw 3.766234vw;
+    gap: 3.90vw 3.77vw;
   }
 
   @media (max-width: $mobile) {
     grid-template-columns: 1fr;
-    gap: 9.375000vw 0;
+    gap: 9.38vw 0;
   }
 }
 
 .advantages__item {
   border: 1px solid $color-grey;
-  border-left: 0.260417vw solid $color-blue;
-  padding: 5.447917vw 2.343750vw 1.822917vw 2.343750vw;
+  border-left: 0.26vw solid $color-blue;
+  padding: 5.45vw 2.34vw 1.82vw 2.34vw;
   position: relative;
   height: fit-content;
-  min-height: 15.625000vw;
+  min-height: 15.63vw;
 
   @media (max-width: $tablet) {
-    border-left: 0.649351vw solid $color-blue;
-    padding: 12.337662vw 3.896104vw 0 5.044156vw;
-    min-height: 46.753247vw;
+    border-left: 0.65vw solid $color-blue;
+    padding: 12.34vw 3.90vw 0 5.04vw;
+    min-height: 46.75vw;
   }
 
   @media (max-width: $mobile) {
-    border-left: 1.562500vw solid $color-blue;
-    padding: 25.000000vw 9.375000vw 10.937500vw 9.375000vw;
+    border-left: 1.56vw solid $color-blue;
+    padding: 23.2vw 7.38vw 18.44vw 7.38vw;
+    min-height: 101.56vw;
+    max-height: 106.25vw;
   }
 }
 
@@ -70,7 +72,7 @@
     width: 9.375000vw;
     height: 9.375000vw;
     top: 9.375000vw;
-    left: 9.375000vw;
+    left: 7.375000vw;
   }
 }
 
@@ -106,7 +108,8 @@
 
   @media (max-width: $mobile) {
     font-size: 4.375000vw;
-    margin-top: 4.687500vw;
+    margin-top: 3.687500vw;
+    max-width: 64.625000vw;
   }
 }
 

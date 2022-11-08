@@ -21,19 +21,19 @@
 .popup__wrapper {
   background-color: $color-background-blue;
   position: absolute;
-  top: 7.604167vw;
-  left: 36.979167vw;
-  width: 26.041667vw;
-  padding: 2.083333vw;
+  top: 7.60vw;
+  left: 36.98vw;
+  width: 26.04vw;
+  padding: 2.08vw;
   color: $color-default-white;
 }
 
 .popup__close-button {
   position: absolute;
-  top: 0.781250vw;
-  right: 0.781250vw;
-  width: 2.083333vw;
-  height: 2.083333vw;
+  top: 0.78vw;
+  right: 0.78vw;
+  width: 2.08vw;
+  height: 2.08vw;
   border: none;
   background-color: $color-background-blue;
 }
@@ -43,9 +43,9 @@
   width: fit-content;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
-  font-size: 1.562500vw;
+  font-size: 1.56vw;
   line-height: 120%;
-  margin-bottom: 0.781250vw;
+  margin-bottom: 0.78vw;
 }
 
 .popup__description {
@@ -53,26 +53,26 @@
   width: fit-content;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 120%;
-  margin-bottom: 2.083333vw;
+  margin-bottom: 2.08vw;
 }
 
 .popup__form {
   display: flex;
   flex-direction: column;
-  gap: 1.041667vw 0;
+  gap: 1.04vw 0;
 }
 
 .popup__input {
   background-color: $color-input;
   color: $color-default-white;
-  padding: 0.781250vw;
+  padding: 0.78vw;
   border: none;
-  border-radius: 0.156250vw;
+  border-radius: 0.16vw;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 134%;
 }
 
@@ -83,15 +83,15 @@
 .popup__textarea {
   background-color: $color-input;
   color: $color-default-white;
-  padding: 1.302083vw 0.781250vw 0.781250vw 0.781250vw;
+  padding: 1.30vw 0.78vw 0.78vw 0.78vw;
   border: none;
-  border-radius: 0.156250vw;
+  border-radius: 0.16vw;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 134%;
-  height: 8.072917vw;
-  margin-bottom: 0.260417vw;
+  height: 8.07vw;
+  margin-bottom: 0.26vw;
 }
 
 .popup__textarea::placeholder {
@@ -101,16 +101,16 @@
 .popup__button {
   border: none;
   background-color: $color-button-black;
-  border-radius: 0.156250vw;
+  border-radius: 0.16vw;
   color: $color-default-white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 119%;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   height: fit-content;
-  padding: 0.781250vw 1.302083vw;
+  padding: 0.78vw 1.30vw;
   width: 100%;
   cursor: pointer;
 }
@@ -122,8 +122,8 @@
 
 .popup__checkbox {
   position: absolute;
-  left: 0.468750vw;
-  bottom: 0.260417vw;
+  left: 0.47vw;
+  bottom: 0.26vw;
   cursor: pointer;
 }
 
@@ -132,9 +132,9 @@
   align-self: flex-end;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.729167vw;
+  font-size: 0.73vw;
   line-height: 112%;
   opacity: 0.8;
-  margin-left: 1.770833vw;
+  margin-left: 1.77vw;
   cursor: pointer;
 }

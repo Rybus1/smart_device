@@ -57,7 +57,8 @@
 
   @media (max-width: $mobile) {
     font-size: 9.375000vw;
-    margin-bottom: 6.250000vw;
+    margin-bottom: 2.250000vw;
+    line-height: 140%;
   }
 }
 
@@ -80,7 +81,7 @@
 
   @media (max-width: $mobile) {
     font-size: 4.375000vw;
-    margin-bottom: 12.500000vw;
+    margin-bottom: 11.000000vw;
   }
 }
 
@@ -96,7 +97,7 @@
   }
 
   @media (max-width: $mobile) {
-    gap: 6.250000vw 0;
+    gap: 5.850000vw 0;
     grid-template-columns: 1fr;
   }
 }
@@ -191,7 +192,7 @@
   @media (max-width: $mobile) {
     border-radius: 0.937500vw;
     font-size: 5vw;
-    padding: 4.687500vw 7.812500vw;
+    padding: 5.387500vw 7.812500vw 3vw;
     width: 84.375000vw;
     margin-bottom: 1.562500vw;
   }

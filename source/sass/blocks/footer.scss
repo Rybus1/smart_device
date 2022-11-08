@@ -358,6 +358,18 @@
   }
 }
 
+.contacts__item {
+  @media (max-width: $mobile) {
+    margin-bottom: 3.125000vw;
+  }
+}
+
+.contacts__item:first-of-type {
+  @media (max-width: $mobile) {
+    margin-bottom: 4.687500vw;
+  }
+}
+
 .contacts__address,
 .contacts__phone {
   display: block;
