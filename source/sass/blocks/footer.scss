@@ -5,27 +5,27 @@
 }
 
 .footer__container {
-  margin-left: 18.229167vw;
-  margin-right: 18.229167vw;
+  margin-left: 18.23vw;
+  margin-right: 18.23vw;
   display: grid;
-  grid-template-columns: 17.968750vw 24.479167vw 17.968750vw;
-  gap: 0 1.562500vw;
-  padding-top: 2.604167vw;
-  padding-bottom: 2.864583vw;
+  grid-template-columns: 17.97vw 24.48vw 17.97vw;
+  gap: 0 1.56vw;
+  padding-top: 2.6vw;
+  padding-bottom: 2.86vw;
 
   @media (max-width: $tablet) {
-    margin-left: 6.493506vw;
-    margin-right: 5.844156vw;
-    padding-top: 6.493506vw;
-    padding-bottom: 8.441558vw;
+    margin-left: 6.49vw;
+    margin-right: 5.84vw;
+    padding-top: 6.49vw;
+    padding-bottom: 8.44vw;
     grid-template-columns: 1fr 1fr;
-    gap: 4.545455vw 3.896104vw;
+    gap: 4.55vw 3.9vw;
   }
 
   @media (max-width: $mobile) {
     margin: 0;
-    padding-top: 10.937500vw;
-    padding-bottom: 10.937500vw;
+    padding-top: 10.94vw;
+    padding-bottom: 10.94vw;
     grid-template-columns: 1fr;
     gap: 0;
   }
@@ -41,7 +41,7 @@
   @media (max-width: $mobile) {
     grid-column: auto;
     display: block;
-    padding-bottom: 7.812500vw;
+    padding-bottom: 7.81vw;
     border-bottom: 1px solid $color-decorative;
   }
 }
@@ -50,34 +50,34 @@
   display: flex;
 
   @media (max-width: $mobile) {
-    margin-left: 15.625000vw;
+    margin-left: 15.63vw;
   }
 }
 
 .footer__logo {
-  height: 2.864583vw;
-  width: 2.864583vw;
+  height: 2.86vw;
+  width: 2.86vw;
 
   @media (max-width: $tablet) {
-    height: 7.142857vw;
-    width: 7.142857vw;
+    height: 7.14vw;
+    width: 7.14vw;
   }
 
   @media (max-width: $mobile) {
-    height: 17.187500vw;
-    width: 17.187500vw;
+    height: 17.19vw;
+    width: 17.19vw;
   }
 }
 
 .footer__text-wrapper {
-  margin-left: 0.781250vw;
+  margin-left: 0.78vw;
 
   @media (max-width: $tablet) {
-    margin-left: 1.948052vw;
+    margin-left: 1.95vw;
   }
 
   @media (max-width: $mobile) {
-    margin-left: 4.687500vw;
+    margin-left: 4.69vw;
   }
 }
 
@@ -86,16 +86,16 @@
   color: $color-default-white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 1.3020833vw;
+  font-size: 1.3vw;
   line-height: 117%;
   margin-top: 0.3vw;
 
   @media (max-width: $tablet) {
-    font-size: 3.246753vw;
+    font-size: 3.25vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 7.812500vw;
+    font-size: 7.81vw;
   }
 }
 
@@ -104,34 +104,34 @@
   color: $color-default-white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 0.625vw;
+  font-size: 0.63vw;
   line-height: 117%;
   opacity: 0.7;
-  margin-top: 0.0vw;
+  margin-top: 0;
 
   @media (max-width: $tablet) {
-    font-size: 1.558442vw;
-    margin-top: 0.649351vw;
+    font-size: 1.56vw;
+    margin-top: 0.65vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 3.750000vw;
-    margin-top: 1.562500vw;
+    font-size: 3.75vw;
+    margin-top: 1.56vw;
   }
 }
 
 .social {
-  margin-top: 1.562500vw;
-  margin-left: 0.520833vw;
+  margin-top: 1.56vw;
+  margin-left: 0.52vw;
 
   @media (max-width: $tablet) {
-    margin-top: 0.649351vw;
+    margin-top: 0.65vw;
     margin-left: 0;
   }
 
   @media (max-width: $mobile) {
-    margin-top: 4.687500vw;
-    margin-left: 27.187500vw;
+    margin-top: 4.69vw;
+    margin-left: 27.19vw;
   }
 }
 
@@ -139,32 +139,32 @@
   display: flex;
   justify-content: start;
   padding-inline-start: 0;
-  gap: 0.781250vw 0.781250vw;
+  gap: 0.78vw 0.78vw;
   margin-block-start: 0;
   margin-block-end: 0;
 
   @media (max-width: $tablet) {
-    gap: 1.948052vw 1.948052vw;
+    gap: 1.95vw 1.95vw;
   }
 
   @media (max-width: $mobile) {
-    gap: 4.687500vw 4.687500vw;
+    gap: 4.69vw 4.69vw;
   }
 }
 
 .social__item {
-  width: 2.083333vw;
+  width: 2.08vw;
   height: fit-content;
-  padding: 0.260417vw;
+  padding: 0.26vw;
 
   @media (max-width: $tablet) {
-    width: 5.194805vw;
-    padding: 0.649351vw;
+    width: 5.19vw;
+    padding: 0.65vw;
   }
 
   @media (max-width: $mobile) {
-    width: 12.500000vw;
-    padding: 1.562500vw;
+    width: 12.5vw;
+    padding: 1.56vw;
   }
 }
 
@@ -176,32 +176,32 @@
 }
 
 .social__icon {
-  width: 1.562500vw;
-  height: 1.562500vw;
+  width: 1.56vw;
+  height: 1.56vw;
 
   @media (max-width: $tablet) {
-    width: 3.896104vw;
-    height: 3.896104vw;
+    width: 3.9vw;
+    height: 3.9vw;
   }
 
   @media (max-width: $mobile) {
-    width: 9.375000vw;
-    height: 9.375000vw;
+    width: 9.38vw;
+    height: 9.38vw;
   }
 }
 
 .navigation {
-  margin-top: 0.260417vw;
+  margin-top: 0.26vw;
 
   @media (max-width: $tablet) {
     margin-top: 0;
   }
 
   @media (max-width: $mobile) {
-    padding-top: 6.250000vw;
-    padding-bottom: 6.250000vw;
-    padding-left: 7.812500vw;
-    padding-right: 7.812500vw;
+    padding-top: 6.25vw;
+    padding-bottom: 6.25vw;
+    padding-left: 7.81vw;
+    padding-right: 7.81vw;
     border-bottom: 1px solid $color-decorative;
   }
 }
@@ -212,21 +212,21 @@
   justify-content: space-between;
 }
 
-.navigation__caption {
+.navigation h3 {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
-  font-size: 0.781250vw;
+  font-size: 0.78vw;
   line-height: 107%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
   @media (max-width: $tablet) {
-    font-size: 1.948052vw;
+    font-size: 1.95vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 4.687500vw;
+    font-size: 4.69vw;
   }
 }
 
@@ -245,43 +245,43 @@
 
 .navigation__icon,
 .contacts__icon {
-  width: 4.687500vw;
-  height: 4.687500vw;
+  width: 4.69vw;
+  height: 4.69vw;
 }
 
 .navigation__list {
-  margin-top: 1.341667vw;
+  margin-top: 1.34vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   max-height: 7.5vw;
-  gap: 0.420833vw 1.562500vw;
+  gap: 0.42vw 1.56vw;
   padding-inline-start: 0;
   align-content: flex-start;
 
   @media (max-width: $tablet) {
-    margin-top: 3.097403vw;
+    margin-top: 3.1vw;
     max-height: none;
-    gap: 1.108701vw 0;
+    gap: 1.11vw 0;
   }
 
   @media (max-width: $mobile) {
-    margin-top: 4.687500vw;
-    gap: 3.125000vw 0;
+    margin-top: 4.69vw;
+    gap: 3.13vw 0;
     display: none;
   }
 }
 
 .navigation__item {
   height: fit-content;
-  max-width: 11.458333vw;
+  max-width: 11.46vw;
 
   @media (max-width: $tablet) {
-    max-width: 28.571429vw;
+    max-width: 28.57vw;
   }
 
   @media (max-width: $mobile) {
-    max-width: 84.375000vw;
+    max-width: 84.38vw;
   }
 }
 
@@ -290,83 +290,83 @@
   color: $color-default-white;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 135%;
   opacity: 0.7;
 
   @media (max-width: $tablet) {
-    font-size: 2.077922vw;
+    font-size: 2.08vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 4.375000vw;
+    font-size: 4.38vw;
   }
 }
 
 .contacts {
-  margin-top: 0.260417vw;
+  margin-top: 0.26vw;
 
   @media (max-width: $tablet) {
     margin-top: 0;
   }
 
   @media (max-width: $mobile) {
-    padding-top: 6.250000vw;
-    padding-bottom: 6.250000vw;
-    padding-left: 7.812500vw;
-    padding-right: 7.812500vw;
+    padding-top: 6.25vw;
+    padding-bottom: 6.25vw;
+    padding-left: 7.81vw;
+    padding-right: 7.81vw;
     border-bottom: 1px solid $color-decorative;
   }
 }
 
-.contacts__caption {
+.contacts h3 {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
-  font-size: 0.781250vw;
+  font-size: 0.78vw;
   line-height: 107%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
   @media (max-width: $tablet) {
-    font-size: 1.948052vw;
+    font-size: 1.95vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 4.687500vw;
+    font-size: 4.69vw;
   }
 }
 
 .contacts__list {
-  margin-top: 1.341667vw;
+  margin-top: 1.34vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 0.420833vw 1.562500vw;
+  gap: 0.42vw 1.56vw;
   padding-inline-start: 0;
 
   @media (max-width: $tablet) {
-    margin-top: 3.097403vw;
+    margin-top: 3.1vw;
     max-height: none;
-    gap: 1.108701vw 0;
+    gap: 1.11vw 0;
   }
 
   @media (max-width: $mobile) {
-    margin-top: 4.687500vw;
-    gap: 3.125000vw 0;
+    margin-top: 4.69vw;
+    gap: 3.13vw 0;
     display: none;
   }
 }
 
 .contacts__item {
   @media (max-width: $mobile) {
-    margin-bottom: 3.125000vw;
+    margin-bottom: 3.13vw;
   }
 }
 
 .contacts__item:first-of-type {
   @media (max-width: $mobile) {
-    margin-bottom: 4.687500vw;
+    margin-bottom: 4.69vw;
   }
 }
 
@@ -376,16 +376,16 @@
   color: $color-default-white;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 135%;
   opacity: 0.7;
 
   @media (max-width: $tablet) {
-    font-size: 2.077922vw;
+    font-size: 2.08vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 4.375000vw;
+    font-size: 4.38vw;
   }
 }
 

@@ -22,7 +22,7 @@
   gap: 1.56vw 1.61vw;
 
   @media (max-width: $tablet) {
-    gap: 3.90vw 3.77vw;
+    gap: 3.9vw 3.77vw;
   }
 
   @media (max-width: $mobile) {
@@ -41,7 +41,7 @@
 
   @media (max-width: $tablet) {
     border-left: 0.65vw solid $color-blue;
-    padding: 12.34vw 3.90vw 0 5.04vw;
+    padding: 12.34vw 3.9vw 0 5.04vw;
     min-height: 46.75vw;
   }
 
@@ -56,60 +56,61 @@
 .advantages__icon {
   fill: $color-blue;
   position: absolute;
-  top: 2.083333vw;
-  left: 2.043750vw;
-  width: 1.822917vw;
-  height: 1.822917vw;
+  top: 2.08vw;
+  left: 2.04vw;
+  width: 1.82vw;
+  height: 1.82vw;
 
   @media (max-width: $tablet) {
-    width: 4.545455vw;
-    height: 4.545455vw;
-    top: 5.394805vw;
-    left: 5.344156vw;
+    width: 4.55vw;
+    height: 4.55vw;
+    top: 5.39vw;
+    left: 5.34vw;
   }
 
   @media (max-width: $mobile) {
-    width: 9.375000vw;
-    height: 9.375000vw;
-    top: 9.375000vw;
-    left: 7.375000vw;
+    width: 9.38vw;
+    height: 9.38vw;
+    top: 9.38vw;
+    left: 7.38vw;
   }
 }
 
-.advantages__caption {
+.advantages h3 {
+  margin: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
-  font-size: 1.250000vw;
+  font-size: 1.25vw;
   color: $color-blue;
 
   @media (max-width: $tablet) {
-    font-size: 3.116883vw;
+    font-size: 3.12vw;
     line-height: 140%;
   }
 
   @media (max-width: $mobile) {
-    font-size: 6.250000vw;
+    font-size: 6.25vw;
   }
 }
 
-.advantages__description {
+.advantages p {
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 0.833333vw;
+  font-size: 0.83vw;
   line-height: 135%;
   margin-top: 1vw;
   color: $color-default-black;
 
   @media (max-width: $tablet) {
-    font-size: 2.077922vw;
+    font-size: 2.08vw;
     margin-top: 0;
-    max-width: 30.818182vw;
+    max-width: 30.82vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 4.375000vw;
-    margin-top: 3.687500vw;
-    max-width: 64.625000vw;
+    font-size: 4.38vw;
+    margin-top: 3.69vw;
+    max-width: 64.63vw;
   }
 }
 

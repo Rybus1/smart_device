@@ -21,7 +21,7 @@
 .popup__wrapper {
   background-color: $color-background-blue;
   position: absolute;
-  top: 7.60vw;
+  top: 7.6vw;
   left: 36.98vw;
   width: 26.04vw;
   padding: 2.08vw;
@@ -38,7 +38,8 @@
   background-color: $color-background-blue;
 }
 
-.popup__caption {
+.popup h3 {
+  margin: 0;
   display: block;
   width: fit-content;
   font-family: "Roboto Condensed", sans-serif;
@@ -48,7 +49,7 @@
   margin-bottom: 0.78vw;
 }
 
-.popup__description {
+.popup p {
   display: block;
   width: fit-content;
   font-family: "PT Mono", sans-serif;
@@ -64,7 +65,7 @@
   gap: 1.04vw 0;
 }
 
-.popup__input {
+.popup__form input {
   background-color: $color-input;
   color: $color-default-white;
   padding: 0.78vw;
@@ -76,14 +77,14 @@
   line-height: 134%;
 }
 
-.popup__input::placeholder {
+.popup__form input::placeholder {
   color: $color-default-white;
 }
 
-.popup__textarea {
+.popup__form textarea {
   background-color: $color-input;
   color: $color-default-white;
-  padding: 1.30vw 0.78vw 0.78vw 0.78vw;
+  padding: 1.3vw 0.78vw 0.78vw 0.78vw;
   border: none;
   border-radius: 0.16vw;
   font-family: "PT Mono", sans-serif;
@@ -94,11 +95,11 @@
   margin-bottom: 0.26vw;
 }
 
-.popup__textarea::placeholder {
+.popup__form textarea::placeholder {
   color: $color-default-white;
 }
 
-.popup__button {
+.popup__form button {
   border: none;
   background-color: $color-button-black;
   border-radius: 0.16vw;
@@ -110,7 +111,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   height: fit-content;
-  padding: 0.78vw 1.30vw;
+  padding: 0.78vw 1.3vw;
   width: 100%;
   cursor: pointer;
 }
@@ -120,14 +121,11 @@
   position: relative;
 }
 
-.popup__checkbox {
-  position: absolute;
-  left: 0.47vw;
-  bottom: 0.26vw;
-  cursor: pointer;
+.popup__policy input {
+  display: none;
 }
 
-.popup__checkbox-label {
+.popup__policy label {
   display: block;
   align-self: flex-end;
   font-family: "PT Mono", sans-serif;
@@ -137,4 +135,28 @@
   opacity: 0.8;
   margin-left: 1.77vw;
   cursor: pointer;
+}
+
+.popup__policy label::after {
+  content: "";
+  width: 0.78vw;
+  height: 0.78vw;
+  position: absolute;
+  top: 0vw;
+  left: 0;
+  border: 0.05vw solid $color-default-white;
+  border-radius: 0.1vw;
+}
+
+.popup__policy svg {
+  position: absolute;
+  width: 0.36vw;
+  height: 0.21vw;
+  left: 0.15vw;
+  top: 0.3vw;
+  display: none;
+}
+
+.popup__policy input:checked ~ svg {
+  display: block;
 }

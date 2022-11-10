@@ -8,106 +8,108 @@
   position: absolute;
   left: 0;
   width: 100vw;
-  height: 45.833333vw;
+  height: 45.83vw;
   z-index: 1;
   scale: fill;
   object-fit: cover;
 
   @media (max-width: $tablet) {
-    height: 83.103896vw;
+    height: 83.1vw;
   }
 
   @media (max-width: $mobile) {
-    height: 175.000000vw;
+    height: 175vw;
   }
 }
 
 .intro__upper-layer {
   position: relative;
   z-index: 2;
-  padding: 15.885417vw 24.739583vw 14.583333vw 24.739583vw;
+  padding: 15.89vw 24.74vw 14.58vw 24.74vw;
   background: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%);
 
   @media (max-width: $tablet) {
-    margin-top: -12.987013vw;
-    padding: 23.376623vw 6.493506vw 26.623377vw 6.493506vw;
+    margin-top: -12.99vw;
+    padding: 23.38vw 6.5vw 26.62vw 6.49vw;
   }
 
   @media (max-width: $mobile) {
-    margin-top: -21.875000vw;
-    padding: 46.875000vw 7.812500vw 59.375000vw 7.812500vw;
+    margin-top: -21.88vw;
+    padding: 46.88vw 7.81vw 59.38vw 7.81vw;
   }
 }
 
-.intro__caption {
+.intro h1 {
+  margin: 0;
   color: $color-text-white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 4.166667vw;
+  font-size: 4.17vw;
   line-height: 117%;
   letter-spacing: 0.07em;
   text-transform: uppercase;
 
   @media (max-width: $tablet) {
-    font-size: 8.311688vw;
+    font-size: 8.31vw;
   }
 
   @media (max-width: $mobile) {
-    font-size: 11.250000vw;
-    max-width: 84.375000vw;
+    font-size: 11.25vw;
+    max-width: 84.38vw;
   }
 }
 
-.intro__description {
-  margin-top: 1.683333vw;
+.intro p {
+  display: block;
+  margin-top: 1.68vw;
   color: $color-text-white;
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
-  font-size: 1.145833vw;
+  font-size: 1.15vw;
   line-height: 155%;
-  max-width: 35.677083vw;
+  max-width: 35.68vw;
 
   @media (max-width: $tablet) {
     margin-top: 0;
-    font-size: 2.857143vw;
-    max-width: 87.012987vw;
+    font-size: 2.86vw;
+    max-width: 87.01vw;
   }
 
   @media (max-width: $mobile) {
-    margin-top: 2.250000vw;
-    font-size: 4.375000vw;
-    max-width: 84.687500vw;
+    margin-top: 2.25vw;
+    font-size: 4.38vw;
+    max-width: 84.69vw;
   }
 }
 
 .intro__additional-info {
   display: block;
-  margin-top: 2.383333vw;
-  padding: 0.781250vw 1.302083vw;
+  margin-top: 2.38vw;
+  padding: 0.78vw 1.3vw;
   background-color: $color-blue;
   width: fit-content;
   color: $color-text-white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 0.937500vw;
+  font-size: 0.94vw;
   line-height: 116%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-radius: 3px;
 
   @media (max-width: $tablet) {
-    font-size: 2.337662vw;
-    padding: 1.948052vw 3.246753vw;
-    margin-left: 5.844156vw;
-    margin-top: 7.493506vw;
+    font-size: 2.34vw;
+    padding: 1.95vw 3.27vw;
+    margin-left: 5.84vw;
+    margin-top: 7.49vw;
   }
 
   @media (max-width: $mobile) {
     font-size: 0;
     margin-left: 0;
     margin-top: 14vw;
-    min-width: 84.375000vw;
-    min-height: 12.500000vw;
+    min-width: 84.38vw;
+    min-height: 12.5vw;
   }
 }
 
@@ -115,10 +117,10 @@
   @media (max-width: $mobile) {
     content: "Бесплатная консультация";
     color: $color-text-white;
-    font-size: 4.375000vw;
+    font-size: 4.38vw;
     line-height: 117%;
     display: block;
-    padding: 2.325000vw 8.375000vw 1.425000vw;
+    padding: 2.33vw 8.38vw 1.43vw;
     letter-spacing: 0.05em;
     white-space: nowrap;
   }

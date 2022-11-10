@@ -33,7 +33,6 @@
   background-repeat: no-repeat;
   height: fit-content;
   width: fit-content;
-  -webkit-background-clip: text;
   background-clip: text;
   background-position: -30.47vw -44.53vw;
 
@@ -60,7 +59,8 @@
   }
 }
 
-.about__caption {
+.about h2 {
+  margin: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   font-size: 1.88vw;
@@ -75,7 +75,7 @@
   }
 }
 
-.about__description {
+.about p {
   font-family: "PT Mono", sans-serif;
   font-weight: 400;
   font-size: 0.83vw;
@@ -96,7 +96,7 @@
   }
 }
 
-.about__description:first-of-type {
+.about p:first-of-type {
   margin-top: 0.78vw;
 
   @media (max-width: $tablet) {
@@ -108,7 +108,7 @@
   }
 }
 
-.about__description[data-paragraph="is-collapsed"] {
+.about p[data-paragraph="is-collapsed"] {
   display: none;
 }
 
@@ -132,7 +132,7 @@
   cursor: pointer;
 
   @media (max-width: $tablet) {
-    margin-top: 2.60vw;
+    margin-top: 2.6vw;
     width: 23.38vw;
     font-size: 1.82vw;
     border-radius: 0.39vw;
